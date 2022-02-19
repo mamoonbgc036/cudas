@@ -75,6 +75,17 @@ header{
 	background: #17C2A4;
 }
 
+#service h3,p{
+	color: #E0F7F3;
+}
+
+#service #bar, #team #bar{
+	background: #72787E;
+	height: 4px;
+	width: 145px;
+	margin: 10px auto;
+}
+
 #main_service{
 	width: 90%;
 	margin: 0 auto;
@@ -104,6 +115,68 @@ header{
 	padding-top: 25px;
 	padding-bottom: 10px;
 }
+
+/*TEAM SECTION*/
+
+#team{
+	min-height: 400px;
+	background: #E7F1F8;
+	text-align: center;
+}
+
+#team p{
+	color: #000;
+}
+
+#main_team{
+	width: 90%;
+	margin: 0 auto;
+	padding-top: 60px;
+}
+
+#main_team h3{
+	padding: 25px;
+}
+
+#main_team > p{
+	padding-bottom: 40px;
+}
+
+
+#team_content{
+	display: flex;
+	flex-flow: wrap;
+	justify-content: space-around;
+}
+
+#team #item{
+	width: 350px;
+	text-align: center;
+	margin: 15px;
+}
+
+#team_content img{
+	border-radius: 50%;
+}
+
+#team_content h4{
+	padding: 15px;
+}
+
+#team_content h5{
+	padding: 10px;
+}
+
+#icon i{
+	padding: 5px;
+	background: #72787E;
+	border-radius: 50%;
+	color: #fff;
+}
+
+
+
+
 
 /*MEDIA QUERY*/
 
