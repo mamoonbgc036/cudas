@@ -204,6 +204,13 @@ header{
 
 }
 
+#progress{
+	display: flex;
+	flex-flow: wrap;
+	justify-content: space-around;
+}
+
+
 
 
 /*PROGRESS BAR*/
@@ -249,8 +256,49 @@ svg.radial-progress text {
 }
 
 
+/*OPIONIONS*/
 
+#opinions{
+	background: #D74680;
+}
 
+#opinions_content{
+	width: 90%;
+	margin: 0 auto;
+}
+
+#opinions_item{
+	display: flex;
+	flex-flow: wrap;
+	justify-content: space-around;
+	margin-top: 80px;
+}
+
+#opionions_item_2{
+	display: flex;
+	width: 350px;
+	margin: 25px auto;
+}
+
+#opionions_item_2 img{
+	width: 65px;
+	border-radius: 50%;
+	margin-right: 15px;
+}
+
+#opionions_item_2 p{
+	font-size: 20px;
+	font-weight: 200;
+}
+
+#opionions_item_2 h3{
+	margin-top: 15px;
+	color: #FFFFFF;
+}
+
+#opionions_item_2 h4{
+	color: #FFDD99;
+}
 
 
 /*MEDIA QUERY*/
@@ -290,8 +338,4 @@ svg.radial-progress text {
 		text-align: center;
 	}
 }
-
-
-
-
 
