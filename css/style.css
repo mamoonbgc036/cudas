@@ -22,11 +22,11 @@ header{
 	display: none;
 }
 
-#main_header nav{
+/* #main_header nav{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-}
+} */
 
 #main_header #menu a{
 	text-decoration: none;
